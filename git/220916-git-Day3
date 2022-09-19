@@ -1,0 +1,25 @@
+## 오늘 배운 것
+
+- rename하는 방법
+    - mv를 통해 rename할 수 있다. 그런데 앞에 git을 붙여줘야 한다.
+    - git mv 원래이름 바꿀이름
+- undo 하는 방법
+    - git restore '되돌리고싶은이름'
+- unstaging하는 방법
+    - git reset HEAD '파일이름'
+- 직전 commit message 되돌리는 방법
+    - git commit --amend
+- revert하는 방법
+    - git revert --no-commit HEAD~3..
+    - 최신 커밋 3개를 되돌리는 것이다. 
+- 조를 나누어서 pull request하는것 연습
+    - 그 과정에서 merge conflict 문제 다뤄보았다.
+    - 팀장이 승인하지 않았을때의 과정을 다뤄 보았다.
+
+## 느낀점
+
+git 공부 마지막 날이었고 가장 중요한 협업 연습을 했다.
+
+인터넷 강의로는 절대 찾아볼 수 없었던 경험이라 너무 신기하고 좋았다.
+
+merge conflict를 해결하는 과정이 궁금했는데 직접 해봐서 좋았고 팀원들이 git경험이 한번도 없었던 분들이라 내가 도와드리려고 노력했다.그러다 보니 그 과정에서 나도 더 잘 이해하게 되었고 우리팀이 결국엔 과제를 완성할 수 있어서 뿌듯했다.
